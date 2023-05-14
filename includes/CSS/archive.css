@@ -1,0 +1,88 @@
+body{
+    color: #000000;
+    background-color: #ffffff;
+    font-family: "Rubik", sans-serif;
+}
+
+table{
+	border: 1px solid rgb(74,102,172);
+}
+
+.tabletitle{
+	background-color: rgb(74,102,172);
+	color: white;
+	font-weight: bold;
+	font-size: medium;
+	height: 50px;
+	padding-left: 10px;
+}
+
+.createbtn{
+	background-color: rgb(74,102,172);
+	color: white;
+}
+
+.tabletext{
+	border: 1px #DDCEBB dashed;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+td a{
+	text-decoration: underline;
+	float: right;
+}
+
+input{
+	border: 1px solid rgb(74,102,172);
+	padding: 8px 10px;
+	width: 500px;
+}
+
+input[type=submit]{
+	border: 1px solid rgb(74,102,172);
+	background-color: rgb(74,102,172);
+	font-weight: bolder;
+	width: 100px;
+	color: white;
+}
+
+.tag{
+	border: 1px solid rgb(74,102,172);
+	padding: 8px 10px;
+	border-radius: 10px;
+	margin: 10px;
+	margin-bottom: 10%;
+}
+
+.tagbtn{
+	border-radius: 10px;
+	padding: 8px 10px;
+}
+
+.searchbar{
+	border-radius: 50px 3px 3px 50px;
+}
+
+.searchbtn{
+	border-radius: 3px 50px 50px 3px;
+}
+
+.inline-div{
+    display:inline-block;
+}
+
+.toast-container {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    z-index: 9999;
+}
+
+.toast {
+	background-color: #333;
+	color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}

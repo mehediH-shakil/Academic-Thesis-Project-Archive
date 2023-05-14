@@ -1,0 +1,82 @@
+body{
+    color: #000000;
+    background-color: #ffffff;
+    font-family: "Rubik", sans-serif;
+}
+
+form{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-49%, -49%);
+}
+
+form h1, form p{
+    text-align: center;
+    padding-top: 5px;
+}
+
+label {
+ text-align: left;
+ padding-left: 5px;
+}
+
+input{
+	border-radius: 10px;
+	border: 1px solid rgb(74,102,172);
+	padding: 8px 10px;
+	width: 300px;
+
+}
+
+input[type=submit]{
+	border: none;
+	width: 100px;
+	background-color: rgb(74,102,172);
+	color: white;
+	font-weight: bolder;
+}
+
+.document_type{
+    width: 145px; 
+    padding-left: 12px; 
+    border-radius: 10px; 
+    border: 1px solid rgb(74,102,172); 
+    padding: 8px 10px;
+}
+
+.submit_button{
+    padding-top: 10px;
+    padding-left: 100px;
+}
+
+.forgot{
+    padding: 5px;
+    padding-right: 10px;
+    text-align: right;
+    text-decoration: underline;
+}
+
+.text{
+    padding-top: 10px;
+}
+
+.smallbox{
+    width: 140px;
+}
+
+
+.toast-container {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    z-index: 9999;
+}
+
+.toast {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
